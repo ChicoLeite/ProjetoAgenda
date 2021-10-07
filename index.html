@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agenda Contatos</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="contato.js"></script>
+</head>
+<body>
+    <div class="general">
+        <h1 class="title">Cadastro de Contatos</h1>
+        <div class="center">
+            <form class="formCadastro" id="formCadastro">
+                <label for="txtName">Name</label><br>
+                <input type="text" id="txtName" placeholder="nome do contato" required><br>
+
+                <label for="txtPhone">Phone</label><br>
+                <input type="text" id="txtPhone" placeholder="fone do contato" required>
+                
+                <label for="txtRua">Rua</label><br>
+                <input type="text" id="txtRua" placeholder="rua do contato" required>
+                
+                <label for="txtNumero">Número</label><br>
+                <input type="text" id="txtNumero" placeholder="numero do contato" required>
+                
+                <label for="txtCidade">Cidade</label><br>
+                <input type="text" id="txtCidade" placeholder="cidade do contato" required>
+
+                <label for="txtCep">CEP</label><br>
+                <input type="text" id="txtCep" placeholder="cep do contato" required>
+                
+                <fieldset>
+                    <legend>Work or Family</legend>
+                
+                    <input type="radio" name="type" value="Work" id="work" checked >
+                    <label for="work">Work</label><br>
+                    
+                    <input type="radio" name="type" value="Family" id="family" >
+                    <label for="family">Family</label>
+
+                </fieldset>
+                <br>
+                <input type="submit" name="" id="btnCadastraContato" value="Cadastrar">
+            </form>
+        </div>
+        <table>
+            <caption><h2>Contatos</h2></caption>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Fone</th>
+                    <th>Rua</th>
+                    <th>Numero</th>
+                    <th>Cidade</th>
+                    <th>CEP</th>
+                    <th>Tipo</th>
+                    <th>Excluir</th>
+                </tr>
+                
+            </thead>
+            <tbody id="contatosCadastrados">
+                <!--COLOCAR O QUE FOI CADASTRADO AQUI ...-->
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

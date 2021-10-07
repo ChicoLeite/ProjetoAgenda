@@ -1,0 +1,135 @@
+.general{
+  display: table;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.title{
+  text-align: center;
+}
+
+.center{
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.formCadastro{
+  width: auto;
+  height: auto;
+  max-width: 0 auto auto auto;
+  padding: 23px;
+  border: 3px solid black;
+}
+
+form input {
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  font: 15px arial, sans-serif;
+  margin-bottom: 12px;
+}
+
+  form label, form fieldset {
+    font: bold 16px calibri, arial, helvetica, Courier;
+  }
+
+  form input {
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    font: 15px arial sans-serif;
+    margin-bottom: 12px;
+  }
+
+  form input[type="text"]{
+    width: 100%;
+    padding: 3px 5px;
+  }
+
+  form fieldset {
+    width: 130px;
+    height: auto;
+    border: none;
+    border-radius: 10px;
+  }
+
+  form fieldset input[type=radio]{
+    width: 13px;
+    height: 13px;
+  }
+
+  form fieldset label{
+    font: 15px arial, sans-serif;
+  }
+
+  form input[type=submit]{
+
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 12px 32px;
+    transition: 0.2s;
+    border: 0 none;
+    border-radius: 20px;
+    background-color:rgb(5, 46, 46);
+    color: #fff;
+    cursor: pointer;
+    font: 15px arial, sans-serif;
+    font-weight: bold;
+  }
+
+  form input[type=submit]:hover{
+    background-color: lightgray;
+    color: black;
+  }
+
+  form input[type=submit]:active{
+    font-weight: bold;
+  }
+
+table {
+  width: auto;
+  margin: 0 auto;
+  border-collapse:  collapse;
+}
+
+  table caption {
+    font: 15px sans-serif;
+    text-shadow: 2px 2px color rgb(185, 138, 138);
+  }
+
+  table thead tr{
+    background-color: gray;
+    color: azure;
+  }
+
+  table tbody tr:hover{
+    background-color: lightgray;
+  }
+
+  table thead tr th {
+    padding: 4px 8px;
+    border-bottom: 2px solid black;
+    border-right: 1px black solid;
+  }
+
+  table tbody td{
+    border:  1px dotted gray;
+    padding: 4px 6px;
+  }
+
+  table button{
+    border-radius: 10px;
+    background-color: darkslategray;
+    color: black;
+    padding: 3px 15px;
+  }
+
+  .family{
+    background-color: green;
+  }
+
+  .work{
+    background-color: rgb(112, 112, 252);
+  }
+
+  
